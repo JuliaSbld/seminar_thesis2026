@@ -1,0 +1,62 @@
+\renewcommand{\figurename}{Figure}
+\renewcommand{\tablename}{Table}
+
+%------------------------------------- Custom Title (Back) Page --------------------
+$if(cleanthesis)$
+\clearpage
+\customtitlebackpage
+$endif$
+%------------------------------------- Custom Title (Back) Page --------------------
+
+
+
+%------------------------------------- Custom Abstract Page ------------------------
+
+\cleardoublepage
+\begin{minipage}{\linewidth}
+
+$if(abstract-en)$
+\chapter*{Abstract}
+%\addcontentsline{toc}{chapter}{Abstract}
+$abstract-en$
+$endif$
+
+\end{minipage}
+\cleardoublepage
+
+%------------------------------------- Custom Abstract Page ------------------------
+
+
+
+%------------------------------------- Acknowledgements Page -----------------------
+$if(acknowledgements)$
+\chapter*{Danksagung}
+%\addcontentsline{toc}{chapter}{Danksagung}
+$acknowledgements$
+$endif$
+%------------------------------------- Acknowledgements Page -----------------------
+
+
+
+
+%------------------------------------- Clear page before TOC -----------------------
+\cleardoublepage
+%------------------------------------- Clear page before TOC -----------------------
+
+
+
+%------------------------------------- Use Eisvogel Header/Footer ------------------
+$if(eisvogel)$
+$if(headeralternative)$
+    \newpairofpagestyles{headeralternative}{
+        \clearpairofpagestyles
+        \automark[section]{chapter}
+        \ihead[\headmark]{}
+        \ohead[]{\headmark}
+        \ifoot[\pagemark]{$author$}
+        \ofoot[$author$]{\pagemark}
+    }
+    \pagestyle{headeralternative}
+$endif$
+$endif$
+%------------------------------------- Use Eisvogel Header/Footer ------------------

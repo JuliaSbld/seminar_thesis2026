@@ -1,0 +1,108 @@
+
+%------------------------------------- Custom Title Page ---------------------------
+\usepackage{graphicx}
+
+\renewcommand{\maketitle}{
+\thispagestyle{empty}
+
+\parindent=0pt
+\begin{center}
+    \Large
+    \textsc{
+        Otto-Friedrich-Universität Bamberg\\
+        \vspace{\baselineskip}\noindent
+        Information Systems
+    }
+\end{center}
+
+\vspace{15mm}
+\hrule
+\vspace{5mm}
+
+\begin{center}
+    \LARGE
+    \textbf{\textsc{ $title$ }}
+\end{center}
+
+\vspace{5mm}
+\hrule
+\vspace{5mm}
+
+$if(subtitle)$
+\begin{center}
+    \Large
+    \textsc{ $subtitle$ }
+\end{center}
+$endif$
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{figs/logo_bamberg.png}
+\end{figure}
+
+
+\vfill
+
+\vspace{\baselineskip}\noindent
+\large
+\begin{tabular}{lp{\textwidth}}
+    Thesis: & \texttt{$thesis_type$}\\
+    Author: & \texttt{$for(author)$$author$$sep$ \and $endfor$}\\
+    Student ID: & \texttt{$studentnumber$} \\
+    Degree program: & \texttt{$degree_program$}\\
+    Department: & \texttt{$department$}\\
+    &\\[12pt]
+    Date: & \texttt{$date$}\\
+    &\\[24pt]
+    Thesis advisor: & \texttt{$reviewer1$}\\
+    $if(reviewer2)$
+    Thesis advisor: & \texttt{$reviewer2$}
+    $endif$
+\end{tabular}
+}
+%------------------------------------- Custom Title Page ---------------------------
+
+
+
+%------------------------------------- Custom Title (Back) Page --------------------
+\newcommand\customtitlebackpage{
+\thispagestyle{empty}
+\hfill
+\vfill
+\textbf{$author$} ($studentnumber$) \\
+\textit{$title$} \\
+$date$ \\[12pt]
+Erstprüfer/in: $reviewer1$ \\
+Zweitprüfer/in: $reviewer2$
+}
+%------------------------------------- Custom Title (Back) Page --------------------
+
+
+
+%------------------------------------- Patch Eisvogel's frontmatter ----------------
+%% Eisvogel template uses `\frontmatter` directly *after* `\maketitle`, thus there is
+%% a `\doubleclearpage` after the titlepage, which prevents our title-back-page to be
+%% positioned on the backside of the titlepage ...
+%% (Pandocs default template uses `\frontmatter` *before* `\maketitle`)
+$if(eisvogel)$
+\usepackage{xpatch}
+\xpretocmd{\frontmatter}{\customtitlebackpage}{}{}
+\xapptocmd{\frontmatter}{\setcounter{page}{3}}{}{}
+$endif$
+%------------------------------------- Patch Eisvogel's frontmatter ----------------
+
+
+
+%------------------------------------- Workaround for CleanStyle -------------------
+%% cleanthesis.sty *will* check the bibfile, even if `configurebiblatex=false` ...
+%% So we need to set it appropriately using our metadata variable "cleanthesisbibfile"
+$if(cleanthesis)$
+\PassOptionsToPackage{
+    figuresep=colon,
+    configurelistings=true,
+    configurebiblatex=false,
+    bibfile=$cleanthesisbibfile$
+}{cleanthesis}
+$endif$
+%------------------------------------- Workaround for CleanStyle -------------------

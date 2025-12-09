@@ -1,0 +1,39 @@
+---
+## mandatory (subtitle and header-left are optional)
+title: "Dreaming of new ways of mobile technology usage"
+#subtitle: "From Markdown to LaTeX to PDF"
+author: "Julia Isabel Seibold"
+keywords: [Markdown, Example]
+
+### really long titles may require (multiple) line break(s) in page headers when using Eisvogel
+### activate (i.e. uncomment the next line) "header-left" to define a shortened single-line version of your long title to be used in page headers
+#header-left: "Shortened version of title for running page headers ..."
+### (note to myself: "header-left" is a meta-data variable in the Eisvogel template)
+
+### activate (i.e. uncomment the next line) "headeralternative" to use chapter/section in header instead of title
+headeralternative: true
+
+thesis_type: "Seminar Thesis"
+studentnumber: "2068474"
+date: "18.01.2026"
+
+reviewer1: "Prof. Dr. Tim Weitzel"
+#reviewer2:  ""
+
+degree_program: "M.Sc. International Information Systems Management"
+department: "Faculty Information Systems and Applied Computer Sciences"
+
+abstract-en: |
+    The abstract.
+
+## optional
+# acknowledgements: |
+# Hier kommt die Danksagung hin.
+
+## mandatory
+declaration: |
+
+    **Hinweis: Hier ist die vom Prüfungsamt zur Verfügung gestellte Erklärung (inkl. zutreffende APO und Art der Arbeit) einzufügen. Diese ist dem Word-Dokument (... Thema-Bestätigung.docx) zu entnehmen.**
+
+---
+
