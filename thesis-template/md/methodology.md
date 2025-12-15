@@ -1,5 +1,3 @@
-Goal: 1000 Words
-
 # Methodology
 
 ## Future Studies

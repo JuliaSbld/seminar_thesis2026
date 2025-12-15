@@ -1,5 +1,3 @@
-Goal: 1000 Words
-
 # Theoretical Background
 
 ## Technology Usage
@@ -12,8 +10,6 @@ Here, Internet use disorder (IUD), which is an umbrella term over classified dis
 ### Technostress
 
 ### Attention spans
-
-###
 
 
 ## Non-visual technology usage
