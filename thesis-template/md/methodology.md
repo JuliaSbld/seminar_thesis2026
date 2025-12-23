@@ -2,10 +2,13 @@
 
 ## Future Studies
 
+
+
 ## Backcasting
 
 Backcasting is a normative approach of conducting a future study with the goal of designing a desirable future and formulating realistic steps to achieve this future.
 Typical use cases of backcasting approaches can be found in city planning or sustainability goals.
+
 
 ## Workshop?
 
