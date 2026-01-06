@@ -23,7 +23,7 @@ Overall, backcasting offers the great ability to detach a future study from the 
 
 That is why this approach has been chosen to address the research question proposed in this paper.
 The problem of balancing positive effects of mobile digital devices, while reducing negative effects on the mental and physical health of individuals benefits from the discussed detachment to the current state of smartphone usage.
-Further, the time span for implementing the proposed future can realistically be placed in 30 to 40 years.
+Further, the time span for implementing the proposed future can realistically be placed in up to 50 years.
 
 Motivated by the problems of todays usage of mobile digital devices (Eikelboom, Chen, Ran), positive and negative use cases of these devices have been identified.
 Positive use cases included digitally enabled human interactions (Marciano), music (?), physical exercise guidance (?) and the consumption of information including for example audio books, podcasts, and news ().
