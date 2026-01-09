@@ -1,6 +1,6 @@
 ---
 ## mandatory (subtitle and header-left are optional)
-title: "Overcoming screen-based mobile devices - a backcasting approach"
+title: "Overcoming screen-based mobile digital devices - a backcasting approach"
 #subtitle: "From Markdown to LaTeX to PDF"
 author: "Julia Isabel Seibold"
 keywords: [Markdown, Example]
@@ -13,7 +13,7 @@ keywords: [Markdown, Example]
 ### activate (i.e. uncomment the next line) "headeralternative" to use chapter/section in header instead of title
 headeralternative: true
 
-thesis_type: "Seminar Thesis"
+thesis_type: "Seminar Paper"
 studentnumber: "2068474"
 date: "18.01.2026"
 
