@@ -22,18 +22,17 @@ reviewer1: "Prof. Dr. Tim Weitzel"
 
 degree_program: "M.Sc. International Information Systems Management"
 department: "Faculty of Information Systems and Applied Computer Sciences"
-
-abstract-en: |
-    The abstract.
+##abstract-en: |
+#
+#The abstract.
 
 ## optional
 # acknowledgements: |
 # Hier kommt die Danksagung hin.
 
 ## mandatory
-declaration: |
+##declaration: |
 
-    **Hinweis: Hier ist die vom Prüfungsamt zur Verfügung gestellte Erklärung (inkl. zutreffende APO und Art der Arbeit) einzufügen. Diese ist dem Word-Dokument (... Thema-Bestätigung.docx) zu entnehmen.**
+#**Hinweis: Hier ist die vom Prüfungsamt zur Verfügung gestellte Erklärung (inkl. zutreffende APO und Art der Arbeit) einzufügen. Diese ist dem Word-Dokument (... Thema-Bestätigung.docx) zu entnehmen.**
 
----
-
+#---
