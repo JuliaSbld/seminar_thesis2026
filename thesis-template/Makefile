@@ -30,7 +30,7 @@ SRC                     = md/introduction.md     \
 
 BIBFILE                 = references.bib
 
-APPENDIX                = md/appendix.md
+# APPENDIX                = md/appendix.md
 
 TARGET                  = thesis.pdf
 

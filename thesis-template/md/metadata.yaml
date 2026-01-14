@@ -1,6 +1,6 @@
 ---
 ## mandatory (subtitle and header-left are optional)
-title: "Overcoming screen-based mobile digital devices - a backcasting approach"
+title: "Overcoming Screen-Based Mobile Digital Devices - A Backcasting Approach"
 #subtitle: "From Markdown to LaTeX to PDF"
 author: "Julia Isabel Seibold"
 keywords: [Markdown, Example]
@@ -17,8 +17,8 @@ thesis_type: "Seminar Paper"
 studentnumber: "2068474"
 date: "18.01.2026"
 
-reviewer1: "Prof. Dr. Tim Weitzel"
-#reviewer2:  ""
+reviewer1: "Johannes Bernard"
+reviewer2: "Prof. Dr. Tim Weitzel"
 
 degree_program: "M.Sc. International Information Systems Management"
 department: "Faculty of Information Systems and Applied Computer Sciences"

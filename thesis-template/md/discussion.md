@@ -6,7 +6,7 @@ This paper advances IS research through two contributions.
 Firstly, a novel audio-haptic mobile technology design is introduced, which preserves beneficial functionalities for its users while eliminating 'screen-time'.
 This design offers a new perspective to the discussion of mobile technology's effects on users.
 
-Secondly, using a second generation backcasting approach to address a human computer interaction issue extends classic use cases of this method, which usually focuses on sustainability issues in our society. [@robinson_future_2003; @quist_participatory_2006; @dreborg_essence_1996]
+Secondly, using a second generation backcasting approach to address a human computer interaction issue extends classic use cases of this method, which usually focuses on sustainability issues in our society [@robinson_future_2003; @quist_past_2006; @dreborg_essence_1996].
 The stakeholder workshop prioritizes user acceptance of the scenario over technical feasibility, embodying the fundamental idea of the methodology in this new context.
 
 ## Implications for the Practice
@@ -53,5 +53,5 @@ The auditory output is, in my assessment, also imitable with available headphone
 The availability of such a prototype would give a much more tangible option to find flaws and opportunities in the idea compared to a purely theoretical model.
 
 Another field in need of closer investigation is the impact of auditory technologies on areas negatively impacted by their visual counterparts.
-Due to the high preference for discussing vision compared to other sensory modalities a focus on auditory technologies is underrepresented. [@hutmacher_why_2019]
+Due to the high preference for discussing vision compared to other sensory modalities a focus on auditory technologies is underrepresented  [@hutmacher_why_2019].
 A systematic comparison between the effects of visual technologies and auditory technologies would give a more stable base for the question of which route is more beneficial for the mental and physical health of users.

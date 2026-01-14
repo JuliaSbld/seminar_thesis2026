@@ -6,16 +6,16 @@
 
 Backcasting is a normative future study approach with the goal of designing a desirable future and formulating steps to achieve this future.
 The term is shaped by @robinson_futures_1990, who offers the approach as an alternative to forecasting approaches, which are meant to predict the most likely future based on the current trajectory of an area.
-The focus on desirability of the designed future is linked to a rather long time span in the future, typically 25 to 50 years are chosen. [@robinson_futures_1990]
+The focus on desirability of the designed future is linked to a rather long time span in the future, typically 25 to 50 years are chosen  [@robinson_futures_1990].
 
 While precise approaches differ in concrete studies, the main objectives of the backcasting approach remain.
 One or multiple desirable future scenarios are laid out, which are followed by formulating steps for stakeholders to be taken in order to achieve the desired future.
-These stakeholders include governmental institutions, political parties, the general public, companies, and private organizations. [@dreborg_essence_1996]
+These stakeholders include governmental institutions, political parties, the general public, companies, and private organizations [@dreborg_essence_1996].
 
-Ideas used to design the desired future can be generated in different approaches, brainstorming, expert panels, and stakeholder involvement are just to name a few. [@robinson_future_2003; @dreborg_essence_1996; @quist_past_2006]
-The involvement of stakeholders can be highlighted here as an important factor for the so-called 'second generation' of backcasting. [@robinson_future_2003]
+Ideas used to design the desired future can be generated in different approaches, brainstorming, expert panels, and stakeholder involvement are just to name a few [@robinson_future_2003; @dreborg_essence_1996; @quist_past_2006].
+The involvement of stakeholders can be highlighted here as an important factor for the so-called 'second generation' of backcasting [@robinson_future_2003].
 
-Overall, backcasting offers the great ability to detach a future study from the current state of the world, making it possible to generate entirely new ideas as opposed to following the rails of today's way of life.[@dreborg_essence_1996]
+Overall, backcasting offers the great ability to detach a future study from the current state of the world, making it possible to generate entirely new ideas as opposed to following the rails of today's way of life [@dreborg_essence_1996].
 
 ### Application in this Paper
 

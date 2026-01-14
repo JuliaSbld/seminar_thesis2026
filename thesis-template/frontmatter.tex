@@ -12,7 +12,7 @@ $endif$
 
 %------------------------------------- Custom Abstract Page ------------------------
 
-\cleardoublepage
+%\cleardoublepage
 \begin{minipage}{\linewidth}
 
 $if(abstract-en)$
@@ -42,21 +42,3 @@ $endif$
 %------------------------------------- Clear page before TOC -----------------------
 \cleardoublepage
 %------------------------------------- Clear page before TOC -----------------------
-
-
-
-%------------------------------------- Use Eisvogel Header/Footer ------------------
-$if(eisvogel)$
-$if(headeralternative)$
-    \newpairofpagestyles{headeralternative}{
-        \clearpairofpagestyles
-        \automark[section]{chapter}
-        \ihead[\headmark]{}
-        \ohead[]{\headmark}
-        \ifoot[\pagemark]{$author$}
-        \ofoot[$author$]{\pagemark}
-    }
-    \pagestyle{headeralternative}
-$endif$
-$endif$
-%------------------------------------- Use Eisvogel Header/Footer ------------------
