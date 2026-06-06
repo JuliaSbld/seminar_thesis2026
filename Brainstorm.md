@@ -41,3 +41,39 @@ Teilnehmende: 15 - 20
 Limesurvey
 Labvanced
 Surveymonkey
+
+
+Variables:
+
+Message Credibility
+AI Attitude
+Critical Media Consumption
+Perceived AI Usage
+AI Disclosure
+
+Age
+Gender
+Professional field
+highest education
+
+Model
+
+AI Disclosure -> Perceived AI Usage -> Message Credibility
+
+
+
+Why should I care?
+
+To really see if fears of not being taken seriously on social media if i use AI are justified
+
+How different people react to it to know more about my target audience
+
+Understanding underlying perceptions of AI use in low stake environments
+
+Does it matter if the information comes from AI if the information is not important to me?
+
+
+
+Background
+
+AI usage perception in other contexts (journalism)
