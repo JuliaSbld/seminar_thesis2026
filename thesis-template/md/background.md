@@ -17,12 +17,14 @@ This flood of information rinsing over consumers of social media is forming beli
 
 With the rise of Artificial Intelligence, producing content is easier than ever before.
 Producing text, illustrations and even video content to be posted on social platforms can happen without a human thinking about the produced content nor fact checking it.
+Especially the rapid development of AI makes is increasingly difficult for consumers to judge the origin of the content they are consuming.
 
 
 ## AI Disclosure
 
 This rise in AI usage in the context of Social Media raises ethical questions of whether its usage should be disclosed to consumers.
 While this transparency would give consumers more information about the source of the content they are consuming, it is unclear in the current body of research how disclosing the usage of Artificial Intelligence affects users perception of content.
+Several fields have been explored before, offering differing results and therefore suggesting a fragmented field of heterogenous outcomes, depending on the context and indidual consuming the content.
 
 ## Trust in Individuals using AI
 
@@ -33,6 +35,7 @@ The relevance of this degree of disclosure has been shown by Chung et al. in the
 One type of disclosure that has comprehensively been shown to diminish trust is third party disclosure in which an outside party like a platform itself or fact checking agencies involuntarily disclose the usage of AI from a source.
 Overall, the effects of self-disclosure of AI usage have been partly explored and have shown to paint different pictures across different use cases of AI usage and levels of disclosure.
 Therefore, this paper explores the self-disclosure of AI usage in the field of social media.
+// AI Attitude influence, the one paper used users of AI etc as a factor
 
 ## Credibility of Messages
 
