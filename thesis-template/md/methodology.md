@@ -23,21 +23,18 @@ At last, demographics including, age, gender, highest education as well as profe
 
 ### Population and sample
 
-The questionnaire has been completed by 15 participants, of which x were male and x were female.
-Ages of participants range from y to z, with a median age of x.
-The number of 15 participants limits the research within this paper to be rather exploratory and in need of further confirmation in future research.
+The questionnaire has been completed by 20 participants, of which 10 were male and 10 were female.
+Ages of participants range from 19 to 59, with a median age of 32.6.
+Only data of completed experiments has been used within the analysis of this research.
+In this context, one of original 20 participants was excluded due missing values in the critical media consumption block.
+
+The number of 19 analyzed participants limits the research within this paper to be rather exploratory and in need of further confirmation in future research.
 Nonetheless, several strands of interesting factors influencing message credibility in AI mediated content are being explored with this small sample.
 
 ### Data collection procedure
 
 Data for this research has been collected in the time from the 07.05.2026 until 02.06.2026.
 Completing the questionnaire took about five to ten minutes and participants completed it without supervision on their own devices.
-
-## Data preparation
-
-Only data of completed experiments has been used within the analysis of this research.
-Other than that, all gathered data has only been altered in data structure not content to prepare for the analysis using python.
-
 
 ## Data analysis
 
@@ -55,3 +52,9 @@ Acknowledging the relevance of factors outside of AI disclosure as influencing m
 
 
 ## Reliability and validity in this study
+
+The reliability of the used scales in the context of this research has been computed using Cronbach's Alpha.
+For the Message Credibility using the three item scale a score of α = .944 can be reported, even higher than the α = .87 reported in the original construction of the scale [Appelman & Sundar]
+The AI Attitude scale shows an excellent value of α = .900 as well.
+At last, the critical media consumption scale consisting of 11 items has a Cronbach's α = 0.827, close to the α = .87 reported by Koc & Barut.
+Therefore, the reliability of all three used scale holds within this research.

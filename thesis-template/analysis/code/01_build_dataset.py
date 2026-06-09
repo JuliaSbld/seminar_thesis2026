@@ -73,11 +73,18 @@ def process_trial_file(file_path):
         att["ai_attitude_mean"] = att[att_cols].mean(axis=1)
         out["ai_attitude_mean"] = first_nonmissing(att["ai_attitude_mean"])
 
+    # Critical consumption — require at least 9 of 11 items (80% threshold)
+    # to be non-missing for a valid composite mean.
+    # Participants with fewer valid responses receive NaN.
     cc_cols = [f"CC{i}" for i in range(10, 21) if f"CC{i}" in cc.columns]
     if cc_cols:
+        cc["cc_valid_count"] = cc[cc_cols].notna().sum(axis=1)
         cc["critical_consumption_mean"] = cc[cc_cols].mean(axis=1)
-        out["critical_consumption_mean"] = first_nonmissing(
-            cc["critical_consumption_mean"]
+        valid_cc = cc[cc["cc_valid_count"] >= 9]
+        out["critical_consumption_mean"] = (
+            first_nonmissing(valid_cc["critical_consumption_mean"])
+            if not valid_cc.empty
+            else np.nan
         )
 
     post_map = {
@@ -108,6 +115,107 @@ def process_trial_file(file_path):
     return out
 
 
+# ── Reliability analysis ──────────────────────────────────────────────────────
+# Computed here because raw item scores are only available in the trials.csv
+# files — they are not passed through to combined_participant_data.csv.
+# The same 80% validity threshold applies: participants with fewer than 9
+# valid CC items are excluded from the alpha calculation.
+
+
+def cronbach_alpha(df_items):
+    df_items = df_items.apply(pd.to_numeric, errors="coerce").dropna()
+    n = df_items.shape[1]
+    if n < 2 or len(df_items) < 2:
+        return np.nan
+    item_vars = df_items.var(axis=0, ddof=1)
+    total_var = df_items.sum(axis=1).var(ddof=1)
+    if total_var == 0:
+        return np.nan
+    return round((n / (n - 1)) * (1 - item_vars.sum() / total_var), 3)
+
+
+mc_rows, att_rows, cc_rows = [], [], []
+
+for file_path in root.rglob("trials.csv"):
+    try:
+        raw = pd.read_csv(file_path).replace("", np.nan)
+        raw = clean_columns(raw)
+        raw = raw.rename(columns={"AI71": "AI70"})
+        raw = to_numeric_cols(raw)
+
+        posts = raw[raw["Task_Name"] == "Posts"].copy()
+        att = raw[raw["Task_Name"] == "AI_Attitude"].copy()
+        cc = raw[raw["Task_Name"] == "CriticalConsumption"].copy()
+
+        # Message credibility — 3 items per post × 7 posts
+        for post_id in range(1, 8):
+            cols = [f"MC{post_id}0", f"MC{post_id}1", f"MC{post_id}2"]
+            if all(c in posts.columns for c in cols):
+                row = posts[cols].dropna()
+                if not row.empty:
+                    mc_rows.append(
+                        row.rename(
+                            columns={
+                                cols[0]: "item1",
+                                cols[1]: "item2",
+                                cols[2]: "item3",
+                            }
+                        ).iloc[0]
+                    )
+
+        # AI attitude — AI1 to AI4
+        att_cols_list = ["AI1", "AI2", "AI3", "AI4"]
+        if all(c in att.columns for c in att_cols_list):
+            row = att[att_cols_list].dropna()
+            if not row.empty:
+                att_rows.append(row.iloc[0])
+
+        # Critical consumption — CC10 to CC20
+        # Apply 80% threshold: require at least 9 of 11 items non-missing
+        cc_cols_list = [f"CC{i}" for i in range(10, 21)]
+        available_cc = [c for c in cc_cols_list if c in cc.columns]
+        if len(available_cc) >= 2:
+            row = cc[available_cc].dropna()
+            if not row.empty:
+                valid_count = row.notna().sum(axis=1).iloc[0]
+                if valid_count >= 9:
+                    cc_rows.append(row.iloc[0])
+
+    except Exception as e:
+        print(f"Reliability error for {file_path}: {e}")
+
+mc_df = pd.DataFrame(mc_rows).apply(pd.to_numeric, errors="coerce")
+att_df = pd.DataFrame(att_rows).apply(pd.to_numeric, errors="coerce")
+cc_df = pd.DataFrame(cc_rows).apply(pd.to_numeric, errors="coerce")
+
+alpha_credibility = cronbach_alpha(mc_df)
+alpha_attitude = cronbach_alpha(att_df)
+alpha_cc = cronbach_alpha(cc_df)
+
+print("=== Reliability Analysis (Cronbach's Alpha) ===")
+print(
+    f"Message credibility  (3 items × 7 posts, N={len(mc_df)}): α = {alpha_credibility}"
+)
+print(
+    f"AI attitude          (4 items, N={len(att_df)}):           α = {alpha_attitude}"
+)
+print(
+    f"Critical consumption ({len(cc_df.columns)} items, N={len(cc_df)}): α = {alpha_cc}"
+)
+
+reliability = pd.DataFrame(
+    {
+        "scale": ["message_credibility", "ai_attitude", "critical_consumption"],
+        "n_items": [3, 4, len(cc_df.columns) if not cc_df.empty else 0],
+        "n_observations": [len(mc_df), len(att_df), len(cc_df)],
+        "cronbach_alpha": [alpha_credibility, alpha_attitude, alpha_cc],
+    }
+)
+reliability.to_csv(processed / "reliability.csv", index=False)
+print(reliability)
+
+
+# ── Extract and combine participant data ──────────────────────────────────────
 results, failed = [], []
 
 for file_path in root.rglob("trials.csv"):
