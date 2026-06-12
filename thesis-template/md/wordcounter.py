@@ -38,7 +38,7 @@ def count_words_in_directory(directory, exclude_files):
 
 # Verzeichnis mit Markdown-Dateien angeben
 directory_path = (
-    "/Users/juliaseibold/Desktop/SoSe 26/Seminar/seminar_thesis/thesis-template/md"
+    "/Users/juliaseibold/Desktop/sose26/seminar/seminar_thesis/thesis-template/md"
 )
 
 # Dateien, die ausgeschlossen werden sollen

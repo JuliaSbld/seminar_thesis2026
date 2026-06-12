@@ -1,5 +1,17 @@
 # Methodology
 
+## Research Model
+
+Arising from the hypotheses stated in the prior section the following model [see Fig.1] guided my research going forward.
+
+// model
+
+The three AI disclosure levels serve as independent variables here, which are effecting the perceived AI usage.
+Perceived AI usage is then hypothesized to influence the message credibility.
+Critical Media Literacy is added as moderator of the relationship of disclosure and perceived AI usage.
+AI Attitude is hypothesized to moderate the connection of perceived AI usage and message credibility.
+The overlaying effect of AI disclosure on message credibility is included in the following analysis, even tough not explicitly shown in the model.
+
 ## Research Design
 
 The research conducted within this seminar paper is a quantitative experiment using a within-subject design to explore the research question of how different types of AI disclosure influence the message credibility of Social Media Posts.
@@ -21,8 +33,11 @@ An attention checker has been added to this block of the questionnaire to ensure
 After that, participants are presented with the AIAS-4 to question their attitude towards AI, this scale uses four statements on a seven point likert scale as well.
 At last, demographics including, age, gender, highest education as well as professional field are documented for a later exploration of the SQ.
 
-### Population and sample
+## Population, Sample and Data Collection
 
+Data for this research has been collected in the time from the 07.05.2026 until 02.06.2026.
+Completing the questionnaire took about five to ten minutes and participants completed it without supervision on their own devices.
+Half of the participants were sourced through personal connections, the other half were participants sourced through Prolific.
 The questionnaire has been completed by 20 participants, of which 10 were male and 10 were female.
 Ages of participants range from 19 to 59, with a median age of 32.6.
 Only data of completed experiments has been used within the analysis of this research.
@@ -31,24 +46,12 @@ In this context, one of original 20 participants was excluded due missing values
 The number of 19 analyzed participants limits the research within this paper to be rather exploratory and in need of further confirmation in future research.
 Nonetheless, several strands of interesting factors influencing message credibility in AI mediated content are being explored with this small sample.
 
-### Data collection procedure
-
-Data for this research has been collected in the time from the 07.05.2026 until 02.06.2026.
-Completing the questionnaire took about five to ten minutes and participants completed it without supervision on their own devices.
-
 ## Data analysis
 
 In order to account for the within-subject variation of stimuli the data is analyzed using a mixed-effect model. [Baayen et al]
 This model accounts for random intercepts of participants, meaning a differing baseline of credibility perception across participants is taken into consideration.
-The baseline of credibility perception is further explored using the critical media consumption, AI Attitude, age, gender, highest educational level, and professional field.
-This part of the analysis is of exploratory and descriptive nature, because the small sample size doesn't allow for generalizations.
-Yet, the analysis is still valuable to focus on to light the black box of surrounding effects influencing message credibility outside of AI disclosure.
-Another interesting factor outside of the clear analysis of AI disclosure influencing message credibility is the perceived level of AI usage.
-The question of perceived AI usage after each post, while being influenced by the disclosure of AI in the post is still a trajectory of interest, because a differing level of AI would hint towards a gap of disclosure and perception.
-That is why, the analysis further explores a possible effect of critical media consumption on this gap between disclosure and perception.
-This analysis is fueled by the hypothesis, that participants with a higher critical media consumption question the disclosed level of AI usage and assess their perception not only upon the disclosure, but also personal opinions of the entire stimulus.
-Exploring all of these surrounding factors is a relevant addition within this seminar paper compared to previous research in the field of AI disclosure and trust.
-Acknowledging the relevance of factors outside of AI disclosure as influencing message credibility is opening up a more nuanced view of how AI is perceived by different participants.
+The baseline of credibility perception is further explored using the critical media literacy, AI Attitude, age, gender, highest educational level, and professional field.
+
 
 
 ## Reliability and validity in this study
