@@ -31,7 +31,7 @@ The message itself is assigned with how accurate, authentic, and believable it i
 
 ## AI Use in the Context of Social Media
 
-With the rise of Artificial Intelligence, producing content is easier than ever before. [source?]
+With the rise of Artificial Intelligence, producing content is easier than ever before. [source?] Sikorski and Hameleers
 Producing text, illustrations and even video content to be posted on social platforms can happen without a human thinking about the produced content nor fact checking it.
 Especially the rapid development of AI makes is increasingly difficult for consumers to judge the origin of the content they are consuming.
 

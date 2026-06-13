@@ -53,7 +53,7 @@ This proposition is analyzed using OLS regression for partial and full disclosur
 
 The direct effect of partial disclosure on message credibility is strongly positive (β = +1.294, 95% CI [+0.773, +1.840], p < .001), indicating higher credibility when partial AI disclosure is present.
 Yet, the indirect effect of partial disclosure is negative through increasing AI perception which lowers message credibility (β = −0.461, 95% CI [−0.888, −0.095], p = .016).
-Overall, the effect analyzed through the OLS regressen is still positive (β = +0.832, 95% CI [+0.170, +1.502], p = .012).
+Overall, the effect analyzed through the OLS regression is still positive (β = +0.832, 95% CI [+0.170, +1.502], p = .012).
 These results suggest inconsistent mediation through perceived AI Usage.
 Even tough partial AI disclosure increases message credibility, AI perception is also increased, which then lowers the direct positive effect on message credibility.
 The perception of AI usage suppresses the positive effect partially, that would otherwise result from the disclosure.

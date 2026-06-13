@@ -27,6 +27,7 @@ To explore other possible personal factors influencing the message credibility o
 
 The Experiment is designed in four overall blocks.
 Firstly, the participants are exposed to the seven dummy Posts one by one, after each the message credibility as well as their perception of AI usage in the Post are questioned.
+// explain posts more
 The second block uses the Critical Media Literacy scale by Koc und Barut to evaluate how participants perceive their consumption of media.
 The scale consists of eleven statements, which have been classified on a seven point Likert scale from completely disagree to completely agree.
 An attention checker has been added to this block of the questionnaire to ensure attentive answers of the participants.
