@@ -58,7 +58,7 @@ The baseline of credibility perception is further explored using the critical me
 ## Reliability and validity in this study
 
 The reliability of the used scales in the context of this research has been computed using Cronbach's Alpha.
-For the Message Credibility using the three item scale a score of α = .944 can be reported, even higher than the α = .87 reported in the original construction of the scale [Appelman & Sundar]
-The AI Attitude scale shows an excellent value of α = .900 as well.
-At last, the critical media consumption scale consisting of 11 items has a Cronbach's α = 0.827, close to the α = .87 reported by Koc & Barut.
+For the Message Credibility using the three item scale a score of $\alpha$  = .944 can be reported, even higher than the $\alpha$  = .87 reported in the original construction of the scale [Appelman & Sundar]
+The AI Attitude scale shows an excellent value of $\alpha$  = .900 as well.
+At last, the critical media consumption scale consisting of 11 items has a Cronbach's $\alpha$ = 0.827, close to the $\alpha$  = .87 reported by Koc & Barut.
 Therefore, the reliability of all three used scale holds within this research.

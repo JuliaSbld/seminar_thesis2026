@@ -8,34 +8,28 @@ In work environments as well as private contexts the many use cases is being lev
 AND
 
 This increasing usage raises the question of ethical obligations to disclose the usage of AI in different context to clearly communicate the origins of text, pictures, or code.
-xxx argue that ...
+@sahebi_is_2026 argue that not disclosing AI Usage is a kind of deception by depriving the other person of the possibility to fully understand the communication their are taking part in by consuming the content created.
+Disclosing its usage offers the consumer the opportunity to assess the content presented in light of this now transparent origin and form their opinion on the accuracy of said content with that background as well.
 
-Ethical Reasons for disclosing its usage
+While many would agree with the presence of an ethical obligation to disclose AI usage, personal incentives to hide its usage cannot be ignored .
+In professional and academic contexts, the disclosure of AI Usage has been shown to erode trust in the person disclosing the usage [@schilke_transparency_2025].
+Research in the field of journalism shows slightly differing effects, while disclosing AI as the author of journalistic texts lowers its credibility, a more nuanced disclosure with information about the extent of AI influence was able to even lift the credibility of the text [@chung_disclose_2026].
+This shows that AI disclosure can lead to different effects on consumers depending on the context and kind of disclosure present.
+Yet, especially in private, non-policy driven contexts with room for personal interpretations and unclear social rules and etiquette, the effects of AI disclosure are currently under examined.
 
-BUT
-
-While many would agree with the presence of an ethical obligation to disclose AI usage personal incentives to hide its usage cannot be ignored.
-Reasons ranging from policies in companies to being perceived differently in private contexts are the basis for hidden AI usage in many contexts.
-Yet especially in private, non-policy driven contexts with room for personal interpretations and unclear social rules and etiquette, the effects of AI disclosure is under examined.
-
-Incentives to hide AI usage
-
-THEREFORE
-
-Therefore, this seminar paper explores the perception of message credibility in case of different stages of AI disclosure.
-This is being done in the context of Social Media Posts, without a clear source of the content as well as a clear platform in order to focus on message credibility outside of sender and platform credibility.
+Therefore, this seminar paper explores the perception of message credibility in case of different stages of AI disclosure in Social Media Posts..
+The stimuli of the study are constructed without a clear source of the content as well as a clear platform in order to focus on message credibility outside of author and source credibility.
 The following research question guided my research in this context.
 
 RQ: How does the disclosure of different degrees of AI usage influence the message credibility of Social Media Posts?
 
-Due to a certain degree of exploratory nature of this research a few demographic factors and personal attitudes of the participants have been examined to possibly find interesting connections of certain traits to the perceived message credibility.
+The research has been conducted in the form of an experiment (n=19) followed by a questionnaire, which has been carried out by the participants without supervision.
 
-SQ: How do personal factors like Age, Profession, critical media consumption, and attitude towards AI usage influence the perceived message credibility?
+Results show a significant negative effect of full AI disclosure on message credibility, while the overall effect of partial AI disclosure remains non-significant and unclear.
+Further investigation reveals an inconsistent mediation of message credibility through perceived AI Usage in the context of partial AI disclosure.
+While the direct effect of partial AI disclosure on message credibility is positive, the disclosure also lifts the perception of AI usage, which counteracts the positive effect on message credibility.
 
-The research has been conducted in the form of an experiment followed by a questionnaire, which has been carried out by the participants without supervision.
-
-Mini-Experiment
-15-20 participants
-quantitative
-
-Results
+Overall the research presented in this seminar paper adds the context of AI disclosure on social media to the existing body of research surrounding journalism and other more professional fields of information sharing.
+To give an overview over this research the following chapter outlines important contexts, this research builds upon.
+After that, the research model and methods are further explained as well as the already mentioned results presented in detail.
+At last, implications and limitations of this research are discussed,

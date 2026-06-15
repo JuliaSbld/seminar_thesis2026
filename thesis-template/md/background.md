@@ -58,14 +58,3 @@ Therefore, this paper explores the self-disclosure of AI usage in the field of s
 // AI Attitude influence, the one paper used users of AI etc as a factor
 
 // Build hypothesis of negative effect of perceived AI usage on message credibility
-
-
-
-    This part of the analysis is of exploratory and descriptive nature, because the small sample size doesn't allow for generalizations.
-    Yet, the analysis is still valuable to focus on to light the black box of surrounding effects influencing message credibility outside of AI disclosure.
-    Another interesting factor outside of the clear analysis of AI disclosure influencing message credibility is the perceived level of AI usage.
-    The question of perceived AI usage after each post, while being influenced by the disclosure of AI in the post is still a trajectory of interest, because a differing level of AI would hint towards a gap of disclosure and perception.
-    That is why, the analysis further explores a possible effect of critical media consumption on this gap between disclosure and perception.
-    This analysis is fueled by the hypothesis, that participants with a higher critical media consumption question the disclosed level of AI usage and assess their perception not only upon the disclosure, but also personal opinions of the entire stimulus.
-    Exploring all of these surrounding factors is a relevant addition within this seminar paper compared to previous research in the field of AI disclosure and trust.
-    Acknowledging the relevance of factors outside of AI disclosure as influencing message credibility is opening up a more nuanced view of how AI is perceived by different participants.

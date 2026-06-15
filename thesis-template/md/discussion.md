@@ -11,6 +11,7 @@ It implies complex contradicting effects present in the context of AI disclosure
 Another addition to existing research in the field is the amplification of the effects of AI disclosure in individuals with higher critical media literacy.
 
 
+
 ## Implications for the Practice
 
 The strongest implications for practical applications of AI disclosure in the context of Social Media is that partial self-disclosure aids message credibility.
