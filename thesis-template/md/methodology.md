@@ -65,7 +65,7 @@ For the message credibility using the three-item scale, a score of $\alpha$  = .
 The AI attitude scale shows an excellent value of $\alpha$  = .900 as well.
 At last, the critical media consumption scale consisting of 11 items has a Cronbach’s $\alpha$ = 0.827, close to the $\alpha$  = .87 reported by @koc_development_2016.
 Therefore, the reliability of all three used scales holds within this research.
-In line with this, the construct validity is handled by using the scales mentioned, which are all checked vor validity in their respective development.
+In line with this, the construct validity is handled by using the scales mentioned, which are all checked for validity in their respective development.
 The within-subject design of this research supports the internal validity of the experiment by introducing each participant as their own control.
 Further, the presented mixed-effect model accounts for differing baselines between participants.
 Threats to the validity in this research are discussed further in the limitations section.

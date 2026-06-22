@@ -11,13 +11,11 @@ Whereas centralized news platforms and journalists have a higher standard of fac
 Quotes, fun facts, picture and video content, health information, political statements, and so much more are shared, without clear distinctions between expert knowledge and personal theories.
 This flood of information rinsing over consumers of social media is forming belief systems that shape societies [@farias-batlle_young_2024].
 
-## AI Use in the Context of Social Media
+## AI Use and AI Disclosure in the Context of Social Media
 
 With the rise of Artificial Intelligence, producing content is easier than ever before [@von_sikorski_introduction_2025].
 Producing text, illustrations, and even video content to be posted on social platforms can happen without a human thinking about the produced content nor fact checking it.
 Especially, the rapid development of AI makes it increasingly difficult for consumers to judge the origin of the content they are consuming.
-
-### AI Disclosure
 
 This rise in AI usage in the context of social media raises ethical questions of whether its usage should be disclosed to consumers [@sahebi_is_2026].
 While this transparency would give consumers more information about the source of the content they are consuming, it is unclear in the current body of research how disclosing the usage of Artificial Intelligence affects users' perception of content.
@@ -51,7 +49,9 @@ The platform itself is a very heterogenous medium, which is not responsible for 
 Therefore, as well as leaning on research on the credibility of social media, this research focuses on message credibility as the remaining credibility type to measure how it is influenced by AI disclosure [@jain_examining_2024].
 This credibility is measured by how accurate, authentic, and believable it is for the consumer [@appelman_measuring_2016].
 
-That is why message credibility is used as the dependent variable in this research, whereas AI disclosure is used as the independent variable.
+## The Baseline Effect: AI Disclosure on Message Credibility
+
+Building on this theoretical groundwork, message credibility is used as the dependent variable in this research, whereas AI disclosure is used as the independent variable.
 Based on the presented research, three levels of AI disclosure are used within this seminar paper.
 Those are (1) no AI disclosure is present, (2) partial AI usage is indicated, and (3) full AI generation of the content is communicated.
 When using no AI disclosure as the baseline, the effect of (2) and (3) on message credibility results in the following hypotheses.
@@ -62,16 +62,15 @@ H1b: Full AI disclosure leads to lower message credibility compared to no AI dis
 Based on the findings of @chung_disclose_2026, the more nuanced AI disclosure is anticipated to make the message of the marked social media post more credible due to higher transparency perception.
 Whereas the disclosure of fully AI-generated content should follow the literary consensus of lower credibility ratings when AI involvement is indicated dichotomously.
 
-## Effect of AI Disclosure on Perceived AI Usage
+## The Mediating Role of Perceived AI Usage
 
+After introducing the baseline effect, a mediator is introduced, splitting the direct path between AI disclosure and message credibility into the a-path of AI disclosure affecting perceived AI usage and the b-path of perceived AI usage affecting message credibility.
 @jia_news_2024 indicated in their research that not the labeling of AI involvement, but rather the perception of this involvement, is decisive to lower credibility ratings of content.
-This mediating role of AI perception, between AI disclosure and message credibility, is therefore included within this research and leads to the following hypotheses.
+That is why this mediating role of AI perception, between AI disclosure and message credibility, is included within this research and leads to the following hypotheses.
 
 H2a: No AI disclosure leads to below-average perceived AI usage.
 H2b: Partial AI disclosure leads to above-average perceived AI usage.
 H2c: Full AI disclosure leads to above-average perceived AI usage.
-
-## Effect of Perceived AI Usage on Message Credibility
 
 In line with introducing AI perception as a possible mediator and the consensus of the majority of consulted literature, the effect of higher AI perception is hypothesized to lower the message credibility of content.
 

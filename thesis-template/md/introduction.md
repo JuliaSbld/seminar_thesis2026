@@ -23,10 +23,11 @@ The following research question guided my research in this context.
 RQ: How does the disclosure of different degrees of AI usage influence the message credibility of social media posts?
 
 The research has been conducted in the form of an experiment (n=19) followed by a questionnaire, which has been carried out by the participants without supervision.
+Using a within-subject design, participants were exposed to dummy social media posts as stimuli and questioned about message credibility, perceived AI usage, and critical media literacy usage validated scales [@appelman_measuring_2016; @grassini_development_2023; @koc_development_2016].
 
 Results show a significant negative effect of full AI disclosure on message credibility, while the overall effect of partial AI disclosure remains non-significant and unclear.
 Further investigation reveals an inconsistent mediation of message credibility through perceived AI usage in the context of partial AI disclosure.
-While the direct effect of partial AI disclosure on message credibility is positive, the disclosure also lifts the perception of AI usage, which counteracts the positive effect on message credibility.
+While the direct effect of partial AI disclosure on message credibility is positive in the case of using an OLS regression, the disclosure also lifts the perception of AI usage, which counteracts the positive effect on message credibility.
 
 Overall, the research presented in this seminar paper adds the context of AI disclosure on social media to the existing body of research surrounding journalism and other professional fields of information sharing.
 To give an overview of this research, the following chapter outlines important contexts upon which this research builds.

@@ -1,8 +1,12 @@
 # Results
 
+Using the proposed research model, the following figure (see Figure \ref{fig:2}) presents the overall results, which are further explained within this chapter.
+
+![Research Model Results \label{fig:2}](ResearchModelResults.pdf){width=100%}
+
 ## Effects of AI Disclosure on Message Credibility
 
-To explore the overarching influence of AI disclosure and message credibility, their connection is being explored using a mixed-effects model.
+To explore the overarching influence of AI disclosure and message credibility, their connection is being analyzed using a mixed-effects model.
 On the one hand, results show no significant, but slightly positive influence of partial AI disclosure on message credibility (H1a) ($\beta$ = +0.199, p = .425).
 This means H1a is not supported using this more rigorous analysis.
 On the other hand, the influence of full AI disclosure is significant and shows a substantial effect (H1b) ($\beta = -1.547, p < .001$), therefore H1b is supported by my analysis.
@@ -27,7 +31,7 @@ Further, this data confirms that the manipulation in the independent variable wo
 
 ## Perceived AI Usage and Message Credibility
 
-The linear mixed model shows a significant negative effect of perceived AI usage on message credibility ($\beta$ = -0.30, p < .001, 95% CI [-0.42, -0.19]).
+The linear mixed model shows a significant negative effect of perceived AI usage on message credibility ($\beta$ = -0.300, p < .001, 95% CI [-0.42, -0.19]).
 Therefore, the hypothesis for the b path (H3) of my model is supported, and a higher perception of AI usage lowers the message credibility of the stimuli.
 
 Regarding the preceding main within-subject results, the small number of participants in the study of 19, resulting in 133 observations, is enough to power the results and show significant results.
@@ -52,7 +56,45 @@ Testing the hypothesis (H5) of whether attitude towards AI moderates the negativ
 Therefore, neither a more positive view of AI results in keeping higher message credibility scores despite higher perceived AI usage nor a more negative view of AI results in lowering the message credibility even further when perceiving higher AI usage.
 Even though the hypothesis is not supported in my data, the small n = 19 of this research could influence this result and would be interesting to test again with a larger dataset.
 
-## Mediation
+To sum up all presented results, the following table gives an overview of the hypotheses and their results (see table \ref{tab:1}).
+
+\begin{table}[htbp]
+\centering
+\caption{Summary of Hypothesis Tests}
+\label{tab:hypotheses}
+\footnotesize
+\begin{tabular}{@{}llllll@{}}
+\toprule
+\textbf{Hyp.} & \textbf{Path} & \textbf{Pred.} & \textbf{Estimate} & \textbf{$p$} & \textbf{Verdict} \\
+\midrule
+H1a & Partial disclosure $\rightarrow$ credibility & $+$ & $\beta = +0.199$ & .425 & Not supported \\
+H1b & Full disclosure $\rightarrow$ credibility & $-$ & $\beta = -1.547$ & $<.001$ & Supported \\
+\addlinespace
+H2a & No disclosure $\rightarrow$ perceived AI & $-$ & $t = -3.901$ & $<.001$ & Supported \\
+H2b & Partial disclosure $\rightarrow$ perceived AI & $+$ & $t = +6.276$ & $<.001$ & Supported \\
+H2c & Full disclosure $\rightarrow$ perceived AI & $+$ & $t = +9.426$ & $<.001$ & Supported \\
+\addlinespace
+H3 & Perceived AI $\rightarrow$ credibility & $-$ & $\beta = -0.300$ & $<.001$ & Supported \\
+\addlinespace
+H4 & CML $\times$ disclosure $\rightarrow$ perceived AI & weakens & & & Not supported \\
+\quad\textit{(no disclosure)} & & & $\beta = -0.645$ & .014 & \textit{(reversed)} \\
+\quad\textit{(partial)} & & & $\beta = +0.872$ & .019 & \textit{(reversed)} \\
+\quad\textit{(full)} & & & $\beta = +0.607$ & .143 & \textit{(reversed)} \\
+\addlinespace
+H5 & AI attitude $\times$ perceived AI $\rightarrow$ cred. & $+$ & $\beta = +0.011$ & .804 & Not supported \\
+\bottomrule
+\end{tabular}
+\par\vspace{0.5em}
+\footnotesize
+\par\vspace{0.5em}
+\begin{minipage}{\linewidth}
+\footnotesize
+\textit{Note.} Estimates from linear mixed-effects models (random intercept for participant), except H2a--c, which report one-sample $t$-tests against the scale midpoint. H4 predicted that CML weakens the disclosure--perception link; all coefficients instead indicate amplification (the effect reverses direction). The OLS-based mediation decomposition for partial disclosure (direct $\beta = +1.298$; indirect $\beta = -0.475$; total $\beta = +0.823$) is reported separately in Section~\ref{sec:mediation} and is not shown here, as it does not account for the within-subject group variance.
+\end{minipage}
+\label{tab:1}
+\end{table}
+
+## Mediation {#sec:mediation}
 
 The proposed research model introduces perceived AI usage as a mediator between AI disclosure and message credibility.
 This proposition is analyzed using OLS regression for partial and full disclosure in contrast to no disclosure, and shows heterogeneous results.
@@ -60,17 +102,19 @@ It should be noted here that the OLS regression does not account for the group v
 Therefore, the results presented in this paragraph are amplified compared to the results in 4.1.
 That is why the total effects reported here differ from the results presented before.
 
-The direct effect of partial disclosure on message credibility is strongly positive ( $\beta$ = +1.294, 95% CI [+0.773, +1.840], p < .001), indicating higher credibility when partial AI disclosure is present.
-Yet, the indirect effect of partial disclosure is negative through increasing AI perception, which lowers message credibility ( $\beta$ = -0.461, 95% CI [-0.888, -0.095], p = .016).
-Overall, the effect analyzed through the OLS regression is still positive ( $\beta$ = +0.832, 95% CI [+0.170, +1.502], p = .012).
+The direct effect of partial disclosure on message credibility analyzed through OLS regression is strongly positive ( $\beta$ = +1.298, 95% CI [+0.755, +1.814], p < .001), indicating higher credibility when partial AI disclosure is present.
+Yet, the indirect effect of partial disclosure is negative through increasing AI perception, which lowers message credibility ( $\beta$ = -0.475, 95% CI [-0.898, -0.106], p = .018).
+Overall, the effect analyzed through the OLS regression is still positive ( $\beta$ = +0.823, 95% CI [+0.196, +1.471], p = .008).
+The proportion that is mediated reads as about -57%, which is not interpretable as a normal percentage, but rather points towards opposite directions of their underlying paths.
 These results suggest inconsistent mediation through perceived AI usage.
 Even though partial AI disclosure increases message credibility, AI perception is also increased, which then lowers the direct positive effect on message credibility.
 The perception of AI usage suppresses the positive effect partially, which would otherwise result from the disclosure.
 
 For full disclosure, the effects are more consistent.
-A direct negative effect can be noted ( $\beta$ = -1.118, 95% CI [-1.691, -0.553], p < .001) as well as an indirect negative effect ( $\beta$ = -0.503, 95% CI [-0.864, -0.192], p < .001).
-This results in a strong negative total effect of full AI disclosure on message credibility ( $\beta$ = -1.621, 95% CI [-2.162, -1.074], p < .001).
-The effect is partially mediated through perceived AI usage, with 31% of the total effect being mediated and 69% remaining as a direct effect of the disclosure without considering the effect it has on perceived AI usage.
+A direct negative effect can be noted ( $\beta$ = -1.112, 95% CI [-1.697, -0.541], p < .001) as well as an indirect negative effect ( $\beta$ = -0.488, 95% CI [-0.823, -0.191], p < .001).
+This results in a strong negative total effect of full AI disclosure on message credibility ( $\beta$ = -1.610, 95% CI [-2.183, -1.041], p < .001).
+The effect is partially mediated through perceived AI usage, with 30% of the total effect being mediated and 70% remaining as a direct effect of the disclosure without considering the effect it has on perceived AI usage.
+
 
 ## Demographics
 
