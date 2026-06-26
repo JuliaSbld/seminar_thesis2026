@@ -29,7 +29,7 @@ This strong positive effect of full AI disclosure on perceived AI usage is in li
 Overall, the hypotheses regarding the connections between AI disclosure and perceived AI usage are supported by my data very clearly.
 Further, this data confirms that the manipulation in the independent variable worked as intended.
 
-## Perceived AI Usage and Message Credibility
+Perceived AI Usage and Message Credibility
 
 The linear mixed model shows a significant negative effect of perceived AI usage on message credibility ($\beta$ = -0.300, p < .001, 95% CI [-0.42, -0.19]).
 Therefore, the hypothesis for the b path (H3) of my model is supported, and a higher perception of AI usage lowers the message credibility of the stimuli.
@@ -93,23 +93,23 @@ To sum up all presented results, the following table gives an overview of the hy
 \footnotesize
 \begin{tabular}{@{}llllll@{}}
 \toprule
-\textbf{Hyp.} & \textbf{Path} & \textbf{Pred.} & \textbf{Estimate} & \textbf{$p$} & \textbf{Verdict} \
+\textbf{Hyp.} & \textbf{Path} & \textbf{Pred.} & \textbf{Estimate} & \textbf{$p$} & \textbf{Verdict} \\
 \midrule
-H1a & Partial disclosure $\rightarrow$ credibility & $+$ & $\beta = +0.199$ & .425 & Not supported \
-H1b & Full disclosure $\rightarrow$ credibility & $-$ & $\beta = -1.547$ & $<.001$ & Supported \
+H1a & Partial disclosure $\rightarrow$ credibility & $+$ & $\beta = +0.199$ & .425 & Not supported \\
+H1b & Full disclosure $\rightarrow$ credibility & $-$ & $\beta = -1.547$ & $<.001$ & Supported \\
 \addlinespace
-H2a & No disclosure $\rightarrow$ perceived AI & $-$ & $t = -3.901$ & $<.001$ & Supported \
-H2b & Partial disclosure $\rightarrow$ perceived AI & $+$ & $t = +6.276$ & $<.001$ & Supported \
-H2c & Full disclosure $\rightarrow$ perceived AI & $+$ & $t = +9.426$ & $<.001$ & Supported \
+H2a & No disclosure $\rightarrow$ perceived AI & $-$ & $t = -3.901$ & $<.001$ & Supported \\
+H2b & Partial disclosure $\rightarrow$ perceived AI & $+$ & $t = +6.276$ & $<.001$ & Supported \\
+H2c & Full disclosure $\rightarrow$ perceived AI & $+$ & $t = +9.426$ & $<.001$ & Supported \\
 \addlinespace
-H3 & Perceived AI $\rightarrow$ credibility & $-$ & $\beta = -0.300$ & $<.001$ & Supported \
+H3 & Perceived AI $\rightarrow$ credibility & $-$ & $\beta = -0.300$ & $<.001$ & Supported \\
 \addlinespace
-H4 & CML $\times$ disclosure $\rightarrow$ perceived AI & weakens & & & Not supported \
-\quad\textit{(no disclosure)} & & & $\beta = -0.645$ & .014 & \textit{(reversed)} \
-\quad\textit{(partial)} & & & $\beta = +0.872$ & .019 & \textit{(reversed)} \
-\quad\textit{(full)} & & & $\beta = +0.607$ & .143 & \textit{(reversed)} \
+H4 & CML $\times$ disclosure $\rightarrow$ perceived AI & weakens & & & Not supported \\
+\quad\textit{(no disclosure)} & & & $\beta = -0.645$ & .014 & \textit{(reversed)} \\
+\quad\textit{(partial)} & & & $\beta = +0.872$ & .019 & \textit{(reversed)} \\
+\quad\textit{(full)} & & & $\beta = +0.607$ & .143 & \textit{(reversed)} \\
 \addlinespace
-H5 & AI attitude $\times$ perceived AI $\rightarrow$ cred. & $+$ & $\beta = +0.011$ & .804 & Not supported \
+H5 & AI attitude $\times$ perceived AI $\rightarrow$ cred. & $+$ & $\beta = +0.011$ & .804 & Not supported \\
 \bottomrule
 \end{tabular}
 \par\vspace{0.5em}
@@ -117,7 +117,7 @@ H5 & AI attitude $\times$ perceived AI $\rightarrow$ cred. & $+$ & $\beta = +0.0
 \par\vspace{0.5em}
 \begin{minipage}{\linewidth}
 \footnotesize
-\textit{Note.} Estimates from linear mixed-effects models (random intercept for participant), except H2a–c, which report one-sample $t$-tests against the scale midpoint. H4 predicted that CML weakens the disclosure–perception link; all coefficients instead indicate amplification (the effect reverses direction). The OLS-based mediation decomposition for partial disclosure (direct $\beta = +1.298$; indirect $\beta = -0.475$; total $\beta = +0.823$) is reported separately in Section~\ref{sec:mediation} and is not shown here, as it does not account for the within-subject group variance.
+\textit{Note.} Estimates from linear mixed-effects models (random intercept for participant), except H2a--c, which report one-sample $t$-tests against the scale midpoint. H4 predicted that CML weakens the disclosure--perception link; all coefficients instead indicate amplification (the effect reverses direction). The OLS-based mediation decomposition for partial disclosure (direct $\beta = +1.298$; indirect $\beta = -0.475$; total $\beta = +0.823$) is reported separately in Section~\ref{sec:mediation} and is not shown here, as it does not account for the within-subject group variance.
 \end{minipage}
 \label{tab:1}
 \end{table}
