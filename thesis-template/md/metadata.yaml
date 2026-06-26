@@ -36,3 +36,6 @@ department: "Faculty of Information Systems and Applied Computer Sciences"
 #**Hinweis: Hier ist die vom Prüfungsamt zur Verfügung gestellte Erklärung (inkl. zutreffende APO und Art der Arbeit) einzufügen. Diese ist dem Word-Dokument (... Thema-Bestätigung.docx) zu entnehmen.**
 
 #---
+#
+lof: true
+lot: true

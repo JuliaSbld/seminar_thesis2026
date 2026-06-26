@@ -5,7 +5,7 @@
 The two most influential findings in this seminar paper are the inconsistent mediation regarding partial AI disclosure and the amplification of disclosure cues in participants with higher critical media literacy.
 
 The null effect of partial AI disclosure on message credibility conceals the opposite effects embedded in the mechanism.
-First, a positive effect of partial AI disclosure on message credibility, which is limited by the usage of OLS regression, but still interesting and in line with @chung_disclose_2026.
+First, there is a positive effect of partial AI disclosure on message credibility, which is limited by the usage of OLS regression, but still interesting and in line with @chung_disclose_2026.
 Second, the negative effect of heightened AI perception on message credibility when partial disclosure is present.
 This interpretation is dependent on the path direction assumed between perceived AI usage and message credibility.
 It implies that the transparency of disclosing that AI has been utilized is perceived as positive by users.
@@ -64,10 +64,10 @@ This would give deeper insights into the generalizability of the presented resul
 In this regard, exploring the reasons for the positive effect of partial disclosure more could hold interesting results, which would deepen the understanding of this result.
 More nuanced labels could include further explained AI involvement, like designed with AI, the script has been aided by AI, or factual information has been checked by AI.
 
-Further, the proposed reduction of cues for AI involvement could implemented in some stimuli with partial disclosure to test whether the tuning of these two influences could actually result in overall higher message credibility.
+Further, the proposed reduction of cues for AI involvement could be implemented in some stimuli with partial disclosure to test whether the tuning of these two influences could actually result in overall higher message credibility.
 Along this line, the stimuli overall could be revised, and combinations of outside cues of AI usage and AI disclosure could be combined in a multitude of ways to interpret these results further.
 
 This could especially hold interesting insights into the reactions of participants with higher CML.
 Reactions to disclosure and outside cues could be mapped more broadly and interpreted.
 
-Overall, I’m positive that enlarging the entire research with more stimuli and participants would eliminate most limitations that this approach did not have the resources to address.
+Overall, I’m positive that enlarging the entire research with more stimuli and participants would address most limitations this study lacked the resources to resolve.

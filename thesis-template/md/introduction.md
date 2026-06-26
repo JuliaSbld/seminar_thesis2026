@@ -3,7 +3,7 @@
 The consumption of information is increasingly shifting towards social media platforms and, therefore, becoming less centralized [@farias-batlle_young_2024; @bhagat_curbing_2025].
 Users can share information without proving its credibility or source, reaching vast numbers of other users on the platform [@bhagat_curbing_2025].
 With the rise of Artificial Intelligence (AI) predominantly in the form of Large Language Models (LLMs), the creation and sharing of content is becoming even easier.
-While text produced by AI often sounds plausible and is increasingly difficult to recognize, disinformation or misleading content can be the result of sharing this content.
+Because text produced by AI often sounds plausible and is increasingly difficult to recognize, disinformation or misleading content can be the result of sharing this content.
 Nonetheless, the use of AI is increasing in this field and is fostering uncertainty about the origin of content on social media [@von_sikorski_introduction_2025].
 
 This increasing usage raises the question of ethical obligations to disclose the usage of AI in different contexts to clearly communicate the origins of text, pictures, or code.
@@ -17,13 +17,13 @@ This shows that AI disclosure can lead to different effects on consumers dependi
 Yet, especially in private, non-policy-driven contexts with room for personal interpretations and unclear social rules and etiquette, the effects of AI disclosure are currently under-examined.
 
 Therefore, this seminar paper explores the perception of message credibility in the case of different stages of AI disclosure in social media posts.
-The stimuli of the study are constructed without a clear source of the content, as well as a clear platform, in order to focus on message credibility outside of author and source credibility.
+The stimuli of the study are constructed without a clear source of the content, as well as without a clear platform, in order to focus on message credibility outside of author and source credibility.
 The following research question guided my research in this context.
 
 RQ: How does the disclosure of different degrees of AI usage influence the message credibility of social media posts?
 
 The research has been conducted in the form of an experiment (n=19) followed by a questionnaire, which has been carried out by the participants without supervision.
-Using a within-subject design, participants were exposed to dummy social media posts as stimuli and questioned about message credibility, perceived AI usage, and critical media literacy usage validated scales [@appelman_measuring_2016; @grassini_development_2023; @koc_development_2016].
+Using a within-subject design, participants were exposed to dummy social media posts as stimuli and questioned about message credibility, perceived AI usage, and critical media literacy using validated scales [@appelman_measuring_2016; @grassini_development_2023; @koc_development_2016].
 
 Results show a significant negative effect of full AI disclosure on message credibility, while the overall effect of partial AI disclosure remains non-significant and unclear.
 Further investigation reveals an inconsistent mediation of message credibility through perceived AI usage in the context of partial AI disclosure.

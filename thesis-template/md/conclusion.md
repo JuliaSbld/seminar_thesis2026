@@ -6,7 +6,7 @@ Mediation through perceived AI usage, as well as critical media literacy and AI 
 Hypotheses are tested using an experiment (n=19), which offers dummy social media posts as stimuli.
 
 Results show significantly worse message credibility when full AI usage is disclosed ( $\beta$ = -1.547, p < .001), the effect is partly mediated through rising AI usage perception and non-significantly amplified in individuals with higher critical media literacy ( $\beta$ = +0.607, p = .143).
-When partial AI usage is disclosed, no significant overall effect on message credibility is notable.
+When partial AI usage is disclosed, no significant overall effect on message credibility is notable ($\beta$ = +0.199, p = .425).
 Yet by introducing perceived AI usage as a mediator an inconsistent mediation shows using OLS regression, that the disclosure itself raises message credibility ( $\beta$ = +1.298, 95% CI [+0.755, +1.814], p < .001) but by increasing perceived AI usage, which lowers message credibility ($\beta$ = -0.300, p < .001, 95% CI [-0.42, -0.19]) the effect is brought down again.
 
 These results are in line with prior research in the field of journalism regarding the positive effect of partial AI disclosure as well as the negative effect of full AI disclosure [@chung_disclose_2026].
